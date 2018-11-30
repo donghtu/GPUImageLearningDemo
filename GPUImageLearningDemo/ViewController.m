@@ -10,7 +10,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.dataArr = @[@"StillImageProcessing",@"VideoFile",@"VideoCamera"];
+    self.dataArr = @[@"StillImageProcessing",@"VideoFile",@"VideoCamera",@"DissolveBlend"];
     [self.view addSubview:self.tableView];
 }
 - (NSInteger )tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{

@@ -19,6 +19,8 @@
 		371F16C521B0CE110095BBBE /* VideoFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 371F16BF21B0CE110095BBBE /* VideoFileViewController.m */; };
 		371F16C621B0CE110095BBBE /* StillImageProcessingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 371F16C121B0CE110095BBBE /* StillImageProcessingViewController.m */; };
 		371F16CA21B0D2730095BBBE /* sample_iPod.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 371F16C921B0D2730095BBBE /* sample_iPod.m4v */; };
+		371F16DD21B12CA20095BBBE /* qwe.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 371F16DA21B12C950095BBBE /* qwe.mp4 */; };
+		371F16E021B12CDD0095BBBE /* DissolveBlendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 371F16DF21B12CDD0095BBBE /* DissolveBlendViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,9 @@
 		371F16C321B0CE110095BBBE /* StillImageProcessingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StillImageProcessingViewController.h; sourceTree = "<group>"; };
 		371F16C721B0CE250095BBBE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		371F16C921B0D2730095BBBE /* sample_iPod.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample_iPod.m4v; sourceTree = "<group>"; };
+		371F16DA21B12C950095BBBE /* qwe.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = qwe.mp4; sourceTree = "<group>"; };
+		371F16DE21B12CDD0095BBBE /* DissolveBlendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DissolveBlendViewController.h; sourceTree = "<group>"; };
+		371F16DF21B12CDD0095BBBE /* DissolveBlendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DissolveBlendViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,8 @@
 				371F16BE21B0CE110095BBBE /* VideoCameraViewController.m */,
 				371F16C221B0CE110095BBBE /* VideoFileViewController.h */,
 				371F16BF21B0CE110095BBBE /* VideoFileViewController.m */,
+				371F16DE21B12CDD0095BBBE /* DissolveBlendViewController.h */,
+				371F16DF21B12CDD0095BBBE /* DissolveBlendViewController.m */,
 				371F16C721B0CE250095BBBE /* PrefixHeader.pch */,
 				371F16C821B0D2730095BBBE /* Supporting Files */,
 				371F169D21B0CC7B0095BBBE /* Main.storyboard */,
@@ -144,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				371F16C921B0D2730095BBBE /* sample_iPod.m4v */,
+				371F16DA21B12C950095BBBE /* qwe.mp4 */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -229,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				371F16DD21B12CA20095BBBE /* qwe.mp4 in Resources */,
 				371F16A421B0CC7C0095BBBE /* LaunchScreen.storyboard in Resources */,
 				371F16CA21B0D2730095BBBE /* sample_iPod.m4v in Resources */,
 				371F16A121B0CC7C0095BBBE /* Assets.xcassets in Resources */,
@@ -248,6 +257,7 @@
 				371F16C621B0CE110095BBBE /* StillImageProcessingViewController.m in Sources */,
 				371F16A721B0CC7C0095BBBE /* main.m in Sources */,
 				371F169921B0CC7B0095BBBE /* AppDelegate.m in Sources */,
+				371F16E021B12CDD0095BBBE /* DissolveBlendViewController.m in Sources */,
 				371F16C521B0CE110095BBBE /* VideoFileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,6 +413,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/GPUImageLearningDemo/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/framework/**";
 				INFOPLIST_FILE = GPUImageLearningDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -422,6 +433,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/GPUImageLearningDemo/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/framework/**";
 				INFOPLIST_FILE = GPUImageLearningDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
