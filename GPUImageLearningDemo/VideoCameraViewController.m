@@ -10,7 +10,6 @@
 #import <AssetsLibrary/AssetsLibrary.h>
 #import <Photos/Photos.h>
 
-
 @interface VideoCameraViewController ()
 @property (nonatomic, strong) GPUImageVideoCamera *videoCamera;
 @property (nonatomic , strong) GPUImageMovieWriter *movieWriter;

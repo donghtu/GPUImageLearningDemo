@@ -13,7 +13,6 @@
 		371F16A121B0CC7C0095BBBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 371F16A021B0CC7C0095BBBE /* Assets.xcassets */; };
 		371F16A421B0CC7C0095BBBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 371F16A221B0CC7C0095BBBE /* LaunchScreen.storyboard */; };
 		371F16A721B0CC7C0095BBBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 371F16A621B0CC7C0095BBBE /* main.m */; };
-		371F16BB21B0CD540095BBBE /* libGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 371F16B521B0CD410095BBBE /* libGPUImage.a */; };
 		371F16BD21B0CD5D0095BBBE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 371F16BC21B0CD5C0095BBBE /* AVFoundation.framework */; };
 		371F16C421B0CE110095BBBE /* VideoCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 371F16BE21B0CE110095BBBE /* VideoCameraViewController.m */; };
 		371F16C521B0CE110095BBBE /* VideoFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 371F16BF21B0CE110095BBBE /* VideoFileViewController.m */; };
@@ -21,26 +20,28 @@
 		371F16CA21B0D2730095BBBE /* sample_iPod.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 371F16C921B0D2730095BBBE /* sample_iPod.m4v */; };
 		371F16DD21B12CA20095BBBE /* qwe.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 371F16DA21B12C950095BBBE /* qwe.mp4 */; };
 		371F16E021B12CDD0095BBBE /* DissolveBlendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 371F16DF21B12CDD0095BBBE /* DissolveBlendViewController.m */; };
+		37218D9D21B4CCC3006A889B /* A_Nice_Day.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 37218D9C21B4CC83006A889B /* A_Nice_Day.mp4 */; };
+		37218DAF21B5090A006A889B /* libGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37218DAA21B508F1006A889B /* libGPUImage.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		371F16B421B0CD410095BBBE /* PBXContainerItemProxy */ = {
+		37218DA921B508F1006A889B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 371F16AD21B0CD400095BBBE /* GPUImage.xcodeproj */;
+			containerPortal = 37218DA321B508F1006A889B /* GPUImage.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = BCF1A33414DDB1EC00852800;
 			remoteInfo = GPUImage;
 		};
-		371F16B621B0CD410095BBBE /* PBXContainerItemProxy */ = {
+		37218DAB21B508F1006A889B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 371F16AD21B0CD400095BBBE /* GPUImage.xcodeproj */;
+			containerPortal = 37218DA321B508F1006A889B /* GPUImage.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = BCE209E51943F20C002FEED8;
 			remoteInfo = GPUImageFramework;
 		};
-		371F16B821B0CD4D0095BBBE /* PBXContainerItemProxy */ = {
+		37218DAD21B50904006A889B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 371F16AD21B0CD400095BBBE /* GPUImage.xcodeproj */;
+			containerPortal = 37218DA321B508F1006A889B /* GPUImage.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = BCF1A33314DDB1EC00852800;
 			remoteInfo = GPUImage;
@@ -58,7 +59,6 @@
 		371F16A321B0CC7C0095BBBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		371F16A521B0CC7C0095BBBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		371F16A621B0CC7C0095BBBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		371F16AD21B0CD400095BBBE /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = framework/GPUImage.xcodeproj; sourceTree = SOURCE_ROOT; };
 		371F16BC21B0CD5C0095BBBE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		371F16BE21B0CE110095BBBE /* VideoCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCameraViewController.m; sourceTree = "<group>"; };
 		371F16BF21B0CE110095BBBE /* VideoFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoFileViewController.m; sourceTree = "<group>"; };
@@ -71,6 +71,8 @@
 		371F16DA21B12C950095BBBE /* qwe.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = qwe.mp4; sourceTree = "<group>"; };
 		371F16DE21B12CDD0095BBBE /* DissolveBlendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DissolveBlendViewController.h; sourceTree = "<group>"; };
 		371F16DF21B12CDD0095BBBE /* DissolveBlendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DissolveBlendViewController.m; sourceTree = "<group>"; };
+		37218D9C21B4CC83006A889B /* A_Nice_Day.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = A_Nice_Day.mp4; sourceTree = "<group>"; };
+		37218DA321B508F1006A889B /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = framework/GPUImage.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37218DAF21B5090A006A889B /* libGPUImage.a in Frameworks */,
 				371F16BD21B0CD5D0095BBBE /* AVFoundation.framework in Frameworks */,
-				371F16BB21B0CD540095BBBE /* libGPUImage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,19 +131,10 @@
 			path = GPUImageLearningDemo;
 			sourceTree = "<group>";
 		};
-		371F16AE21B0CD400095BBBE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				371F16B521B0CD410095BBBE /* libGPUImage.a */,
-				371F16B721B0CD410095BBBE /* GPUImage.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		371F16BA21B0CD540095BBBE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				371F16AD21B0CD400095BBBE /* GPUImage.xcodeproj */,
+				37218DA321B508F1006A889B /* GPUImage.xcodeproj */,
 				371F16BC21B0CD5C0095BBBE /* AVFoundation.framework */,
 			);
 			name = Frameworks;
@@ -150,10 +143,20 @@
 		371F16C821B0D2730095BBBE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				37218D9C21B4CC83006A889B /* A_Nice_Day.mp4 */,
 				371F16C921B0D2730095BBBE /* sample_iPod.m4v */,
 				371F16DA21B12C950095BBBE /* qwe.mp4 */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37218DA421B508F1006A889B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37218DAA21B508F1006A889B /* libGPUImage.a */,
+				37218DAC21B508F1006A889B /* GPUImage.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,7 +173,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				371F16B921B0CD4D0095BBBE /* PBXTargetDependency */,
+				37218DAE21B50904006A889B /* PBXTargetDependency */,
 			);
 			name = GPUImageLearningDemo;
 			productName = GPUImageLearningDemo;
@@ -204,8 +207,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 371F16AE21B0CD400095BBBE /* Products */;
-					ProjectRef = 371F16AD21B0CD400095BBBE /* GPUImage.xcodeproj */;
+					ProductGroup = 37218DA421B508F1006A889B /* Products */;
+					ProjectRef = 37218DA321B508F1006A889B /* GPUImage.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -216,18 +219,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		371F16B521B0CD410095BBBE /* libGPUImage.a */ = {
+		37218DAA21B508F1006A889B /* libGPUImage.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libGPUImage.a;
-			remoteRef = 371F16B421B0CD410095BBBE /* PBXContainerItemProxy */;
+			remoteRef = 37218DA921B508F1006A889B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		371F16B721B0CD410095BBBE /* GPUImage.framework */ = {
+		37218DAC21B508F1006A889B /* GPUImage.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = GPUImage.framework;
-			remoteRef = 371F16B621B0CD410095BBBE /* PBXContainerItemProxy */;
+			remoteRef = 37218DAB21B508F1006A889B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -237,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37218D9D21B4CCC3006A889B /* A_Nice_Day.mp4 in Resources */,
 				371F16DD21B12CA20095BBBE /* qwe.mp4 in Resources */,
 				371F16A421B0CC7C0095BBBE /* LaunchScreen.storyboard in Resources */,
 				371F16CA21B0D2730095BBBE /* sample_iPod.m4v in Resources */,
@@ -265,10 +269,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		371F16B921B0CD4D0095BBBE /* PBXTargetDependency */ = {
+		37218DAE21B50904006A889B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GPUImage;
-			targetProxy = 371F16B821B0CD4D0095BBBE /* PBXContainerItemProxy */;
+			targetProxy = 37218DAD21B50904006A889B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

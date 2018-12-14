@@ -10,12 +10,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "framework/Source/iOS/GPUImageMovieWriter.m"
-            timestampString = "565259232.799059"
+            timestampString = "565514939.146921"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "857"
             endingLineNumber = "857"
             landmarkName = "-endProcessing"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "framework/Source/GPUImageFramebuffer.m"
+            timestampString = "565509532.394119"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "246"
+            endingLineNumber = "246"
+            landmarkName = "-activateFramebuffer"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
